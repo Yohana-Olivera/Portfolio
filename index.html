@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Yohana Olivera Portfolio</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Yohana Olivera</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Inicio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> Sobre Mí
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Habilidades
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#formacion" class="nav__link">
+                               <i class="uil uil-graduation-cap nav__icon"></i> Formación
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i> Proyectos
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contacto
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+
+                <div class="nav__btns">
+
+                    <!--Theme change button -->  
+                    <i class="uil uil-moon change-theme" id="theme-button"></i> 
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+            
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/yohana-daniela-olivera-macias/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://github.com/Yohana-Olivera" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home__blob-img" x='5' y='1' xlink:href="assets/img/perfil.png"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Hola, soy Yohana Olivera</h1>
+                            <h3 class="home__subtitle">Desarrolladora Web</h3>
+                            <p class="home__description">Actualmente soy parte del programa Oracle Next Education con Alura Latam, con el cual estoy explorando este apasionante mundo de la programación y el desarrollo web.</p>
+                            <a href="#contact" class="button button--flex">
+                                Contáctame<i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                        
+                    </div>
+
+                </div>   
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">Sobre mí</h2>
+                <br><br>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/about.jpg" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <p class="about__description">
+                            Soy del norte de Argentina, específicamente de la provincia de Tucumán.
+                            Tengo 32 años y actualmente soy estudiante del <strong>Programa ONE - Oracle Next Education + Alura Latam</strong> y del Programa Codo a Codo 4.0 de la Ciudad de Buenos Aires.<br><br>
+
+                            Mis primeros pasos en la programación fueron como autodidacta, utilizando Youtube, W3scholl, Mozilla Developer org, entre otras fuentes. Mi primera educación formal en esta área fue con el programa Digitalers de Telecom, con el cual obtuve un <strong>certificado en Introducción en lenguajes de programación y uno de Programación con Python.</strong> Allí aprendí lo amplio y apasionante que es el mundo IT y supe que esto se convertiría en mi pasión y profesión.<br><br>
+
+                            Mi objetivo actual es expandir mis conocimientos teóricos y llevarlos a la práctica en diversos proyectos para fortalecer mi perfil profesional en el sector IT. <strong>Soy una persona sumamente proactiva, ordenada, eficiente, responsable y me encanta ayudar a los demás, compartir mis conocimientos y aprender día a día un poco más.</strong>
+                        </p>
+
+
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/mi-cv.pdf" class="button button--flex">
+                                Descargar CV<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Habilidades</h2>
+                <span class="section__subtitle">Mis habilidades</span>
+
+                <div class="skills__container container grid">
+                    <div>
+                        <!--==================== SKILLS FRONTEND====================-->
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Frontend developer</h1>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML</h3>
+                                        <img src="assets/img/html.svg" class="skill-img"> 
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">CSS</h3>
+                                        <img src="assets/img/css3.svg" class="skill-img">
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Vue.js</h3>
+                                        <img src="assets/img/Vue.js.svg" class="skill-img">  
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <img src="assets/img/js.svg" class="skill-img"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== SKILLS BACKEND====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-server-network skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Backend developer</h1>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Python</h3>
+                                        <img src="assets/img/Python.svg" class="skill-img"> 
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">MySQL</h3>
+                                        <img src="assets/img/mysql-official.svg" class="skill-img">
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Git</h3>
+                                        <img src="assets/img/Git-logo.svg" class="skill-img"> 
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">GitHub</h3>
+                                        <img src="assets/img/github.svg" class="skill-img">
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Flask</h3>
+                                        <img src="assets/img/Flask_logo.svg" class="skill-img">  
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Django</h3>
+                                        <img src="assets/img/django.svg" class="skill-img">      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== SOFT SKILLS====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <div class="skills__icon-2">
+                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><g><path d="M309.561,324.814c-1.402-0.417-2.876-0.51-4.315-0.299c-0.168-0.008-0.337-0.012-0.505-0.019 c12.981-12.682,21.061-30.361,21.061-49.899V175c0-5.522-4.478-10-10-10h-74.075c-30.617,0-55.526,24.909-55.526,55.526v54.07 c0,19.538,8.08,37.217,21.061,49.899c-0.168,0.007-0.337,0.011-0.505,0.019c-1.438-0.21-2.913-0.118-4.315,0.299 c-51.696,4.641-92.352,48.2-92.352,101.084V475c0,5.522,4.478,10,10,10h271.824c5.522,0,10-4.478,10-10v-49.102 C401.912,373.015,361.257,329.455,309.561,324.814z M206.199,234.533v-14.007h0c0-19.589,15.938-35.526,35.526-35.526H305.8 v26.761c0,13.522-11.001,24.523-24.523,24.523h-75.078V234.533z M206.199,274.597v-18.313h75.078 c9.057,0,17.485-2.725,24.523-7.388v25.7c0,27.46-22.341,49.801-49.801,49.801C228.539,324.397,206.199,302.057,206.199,274.597z M282.558,344.397L256,370.955l-26.558-26.558H282.558z M381.912,465H130.088v-28.78h81.604c5.522,0,10-4.478,10-10 c0-5.522-4.478-10-10-10h-81.009c4.42-37.167,33.939-66.726,71.087-71.21l47.159,47.159c1.953,1.952,4.512,2.929,7.071,2.929 s5.118-0.977,7.071-2.929l47.159-47.159c40.323,4.867,71.682,39.274,71.682,80.888V465z"></path></g></g><g><g><path d="M263.069,419.15c-1.859-1.86-4.439-2.93-7.069-2.93s-5.21,1.07-7.07,2.93s-2.93,4.44-2.93,7.07s1.069,5.21,2.93,7.07 c1.86,1.859,4.44,2.93,7.07,2.93s5.21-1.07,7.069-2.93c1.86-1.86,2.931-4.44,2.931-7.07S264.93,421.01,263.069,419.15z"></path></g></g><g><g><path d="M256.127,27c-20.953,0-38,17.047-38,38c0,17.492,11.884,32.253,28,36.655v24.423c0,5.522,4.478,10,10,10s10-4.478,10-10 v-24.423c16.116-4.402,28-19.163,28-36.655C294.127,44.047,277.08,27,256.127,27z M256.127,83c-9.925,0-18-8.075-18-18 s8.075-18,18-18s18,8.075,18,18S266.052,83,256.127,83z"></path></g></g><g><g><path d="M456.883,105.001c-7.178-7.177-16.72-11.13-26.87-11.13c-10.15,0-19.692,3.953-26.87,11.131 c-12.368,12.369-14.402,31.209-6.12,45.718l-17.27,17.27c-3.905,3.905-3.905,10.237,0,14.143c1.954,1.951,4.513,2.928,7.072,2.928 c2.56,0,5.118-0.977,7.071-2.929l17.262-17.262c5.68,3.257,12.131,5.002,18.855,5.002c10.15,0,19.692-3.953,26.869-11.13 c7.179-7.177,11.132-16.72,11.132-26.87C468.014,121.722,464.061,112.179,456.883,105.001z M442.742,144.601 c-7.018,7.018-18.438,7.018-25.455,0c-7.019-7.019-7.019-18.439-0.001-25.457c3.509-3.51,8.118-5.264,12.728-5.264 s9.219,1.754,12.728,5.264c3.4,3.4,5.273,7.92,5.273,12.729C448.015,136.681,446.142,141.201,442.742,144.601z"></path></g></g><g><g><path d="M474,267.833c-17.492,0-32.253,11.884-36.655,28h-24.423c-5.522,0-10,4.478-10,10c0,5.522,4.478,10,10,10h24.423 c4.402,16.116,19.163,28,36.655,28c20.953,0,38-17.047,38-38S494.953,267.833,474,267.833z M474,323.833c-9.925,0-18-8.075-18-18 s8.075-18,18-18s18,8.075,18,18S483.925,323.833,474,323.833z"></path></g></g><g><g><path d="M382.069,298.76c-1.859-1.86-4.439-2.93-7.069-2.93s-5.21,1.069-7.07,2.93c-1.86,1.861-2.93,4.44-2.93,7.07 c0,2.64,1.069,5.21,2.93,7.069c1.86,1.871,4.44,2.931,7.07,2.931s5.21-1.061,7.069-2.931c1.86-1.859,2.931-4.439,2.931-7.069 S383.93,300.63,382.069,298.76z"></path></g></g><g><g><path d="M99.078,295.579H74.655c-4.402-16.116-19.163-28-36.655-28c-20.953,0-38,17.047-38,38s17.047,38,38,38 c17.492,0,32.253-11.884,36.655-28h24.423c5.522,0,10-4.478,10-10C109.078,300.057,104.601,295.579,99.078,295.579z M38,323.579 c-9.925,0-18-8.075-18-18s8.075-18,18-18s18,8.075,18,18S47.925,323.579,38,323.579z"></path></g></g><g><g><path d="M131.641,167.025l-17.262-17.261c3.258-5.68,5.002-12.132,5.002-18.856c0-10.15-3.953-19.693-11.131-26.871 c-7.178-7.177-16.72-11.13-26.87-11.13s-19.692,3.953-26.87,11.131c-14.815,14.816-14.815,38.924,0,53.74 c7.178,7.177,16.72,11.13,26.871,11.13c6.724,0,13.176-1.745,18.856-5.002l17.262,17.262c1.953,1.952,4.512,2.929,7.071,2.929 s5.118-0.977,7.071-2.929C135.546,177.263,135.546,170.931,131.641,167.025z M94.114,143.632 c-0.001,0.002-0.003,0.003-0.005,0.005c-7.018,7.02-18.438,7.02-25.455,0c-7.019-7.019-7.019-18.439-0.001-25.457 c3.509-3.509,8.118-5.264,12.728-5.264c4.61,0,9.219,1.755,12.728,5.264c3.4,3.4,5.273,7.92,5.273,12.729 C99.382,135.714,97.51,140.233,94.114,143.632z"></path></g></g></svg>
+                                </div>
+
+                                <div>
+                                    <h1 class="skills__title">Soft Skills</h1>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Pensamiento Lógico</h3>
+                                        <img src="assets/img/logica.svg" class="skill-img"> 
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Trabajo en equipo</h3>
+                                        <img src="assets/img/trabajo equipo.svg" class="skill-img">
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Persistencia</h3>
+                                        <img src="assets/img/presistencia.svg" class="skill-img">  
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Solidaridad</h3>
+                                        <img src="assets/img/solidaridad.svg" class="skill-img">      
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Empatía</h3>
+                                        <img src="assets/img/empatia.svg" class="skill-img">      
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Iniciativa</h3>
+                                        <img src="assets/img/iniciativa.svg" class="skill-img">      
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Creatividad</h3>
+                                        <img src="assets/img/creatividad.svg" class="skill-img">      
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Comunicación</h3>
+                                        <img src="assets/img/comunicacion.svg" class="skill-img">      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== HOBBIES ====================-->
+                        <div class="hobbies__content hobbies__close">
+                            <div class="hobbies__header">
+                                <div class="hobbies__icon-2">
+                                    <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><g id="_OUTLINE" data-name="/ OUTLINE"><path d="m415.14941 98.36963a223.475 223.475 0 0 0 -67.88671-46.99414l-6.5254 14.60937a207.55263 207.55263 0 0 1 63.04493 43.64453z"></path><path d="m171.2627 65.98486-6.5254-14.60937a225.163 225.163 0 0 0 -119.98925 129.95851l15.08595 5.332a209.08546 209.08546 0 0 1 111.4287-120.68114z"></path><path d="m109.62988 403.78271a209.26491 209.26491 0 0 1 -49.79588-78.44871l-15.08593 5.332a225.3589 225.3589 0 0 0 53.62205 84.4839z"></path><path d="m417.60645 386.96 12.42382 10.081a225.05732 225.05732 0 0 0 22.33887-33.1836l-14.01758-7.71484a208.94865 208.94865 0 0 1 -20.74511 30.81744z"></path><path d="m274.45312 67.75244-25.57812-17.05176v-.00048a16.00028 16.00028 0 0 0 -24.875 13.31347v34.10352a15.99444 15.99444 0 0 0 24.875 13.3125l25.57812-17.05127a16.00009 16.00009 0 0 0 0-26.626zm-34.45312 30.36475-.042-34.12842a.29914.29914 0 0 1 .042.0249v-.00049l25.57812 17.05225z"></path><path d="m336 256a64 64 0 1 0 -64 64 64.07239 64.07239 0 0 0 64-64zm-64 48a48 48 0 1 1 48-48 48.05405 48.05405 0 0 1 -48 48z"></path><path d="m264 252.687-21.657 21.656 11.314 11.314 26.343-26.344v-35.313h-16z"></path><path d="m80 288v-8h40v8a24.02718 24.02718 0 0 0 24 24h16a24.02718 24.02718 0 0 0 24-24v-64a24.02718 24.02718 0 0 0 -24-24h-16a24.02718 24.02718 0 0 0 -24 24v8h-40v-8a24.02718 24.02718 0 0 0 -24-24h-16a24.02718 24.02718 0 0 0 -24 24v64a24.02718 24.02718 0 0 0 24 24h16a24.02718 24.02718 0 0 0 24-24zm56-64a8.00917 8.00917 0 0 1 8-8h16a8.00917 8.00917 0 0 1 8 8v64a8.00917 8.00917 0 0 1 -8 8h-16a8.00917 8.00917 0 0 1 -8-8zm-56 24h40v16h-40zm-48 40v-64a8.00917 8.00917 0 0 1 8-8h16a8.00917 8.00917 0 0 1 8 8v64a8.00917 8.00917 0 0 1 -8 8h-16a8.00917 8.00917 0 0 1 -8-8z"></path><path d="m96 432a24 24 0 0 0 0 48h72v-.02795a39.96343 39.96343 0 0 0 32 16.02795h112a40.04552 40.04552 0 0 0 40-40v-24zm0 32a8 8 0 0 1 0-16h64v8a40.037 40.037 0 0 0 .80493 8zm240-8a24.0275 24.0275 0 0 1 -24 24h-112a24.0275 24.0275 0 0 1 -24-24v-8h160z"></path><path d="m248 360h16v16h-16z"></path><path d="m160 352h16v16h-16z"></path><path d="m168 400h16v16h-16z"></path><path d="m192 368h16v16h-16z"></path><path d="m216 392h16v16h-16z"></path><path d="m216 344h16v16h-16z"></path><path d="m264 400h16v16h-16z"></path><path d="m432 247.50293a65.42965 65.42965 0 0 0 38.62793-18.81693l6.05859-6.0586a65.51183 65.51183 0 0 0 19.31348-46.6274v-8h-8a65.51024 65.51024 0 0 0 -46.62793 19.314l-6.05859 6.0586a66.19 66.19 0 0 0 -11.31348 15.10531 66.19 66.19 0 0 0 -11.31348-15.10535l-6.05859-6.0586a65.51024 65.51024 0 0 0 -46.62793-19.31396h-8v8a65.51183 65.51183 0 0 0 19.31348 46.62744l6.05859 6.0586a65.42965 65.42965 0 0 0 38.62793 18.81689v16.49707h-48v16h8.9375l5.37207 42.97656a24.03946 24.03946 0 0 0 23.81543 21.02344h35.75a24.03946 24.03946 0 0 0 23.81543-21.02344l5.37207-42.97656h8.9375v-16h-48zm14.62793-42.81693 6.05859-6.0586a49.576 49.576 0 0 1 26.55274-13.86621 49.58107 49.58107 0 0 1 -13.86719 26.55281l-6.05859 6.0586a49.576 49.576 0 0 1 -26.55274 13.86621 49.58107 49.58107 0 0 1 13.86719-26.55281zm-57.94141 12.68652-6.05859-6.0586a49.58107 49.58107 0 0 1 -13.86719-26.55273 49.576 49.576 0 0 1 26.55274 13.86621l6.05859 6.0586a49.58107 49.58107 0 0 1 13.86719 26.55273 49.576 49.576 0 0 1 -26.55274-13.86617zm66.25098 62.62748-5.124 40.99219a8.01243 8.01243 0 0 1 -7.9385 7.00781h-35.75a8.01243 8.01243 0 0 1 -7.93848-7.00781l-5.12402-40.99219z"></path><path d="m417.225 100h43.773v16h-43.773z" transform="matrix(.406 -.914 .914 .406 162.084 465.405)"></path><path d="m410.801 144h17.509v16h-17.509z" transform="matrix(.406 -.914 .914 .406 110.255 473.658)"></path><path d="m168 152a24.0275 24.0275 0 0 0 24 24h128a24.0275 24.0275 0 0 0 24-24v-24h-16v-88a24.02718 24.02718 0 0 0 -24-24h-96a24.02718 24.02718 0 0 0 -24 24v88h-16zm32-112a8.00917 8.00917 0 0 1 8-8h96a8.00917 8.00917 0 0 1 8 8v88h-112zm-16 104h144v8a8.00917 8.00917 0 0 1 -8 8h-128a8.00917 8.00917 0 0 1 -8-8z"></path><path d="m376 372.68652v-14.05908a23.84254 23.84254 0 0 0 -7.0293-16.9707l-16-16a24.02784 24.02784 0 0 0 -33.9414 0l-25.373 25.373a24.02666 24.02666 0 0 0 0 33.94042l16 16a23.84385 23.84385 0 0 0 16.9707 7.02984h14.05957l65.65625 65.65674a24.97075 24.97075 0 0 0 35.31446-35.31348zm54.34277 89.65674a8.9696 8.9696 0 0 1 -12.68554 0l-70.34375-70.34326h-20.68648a7.94524 7.94524 0 0 1 -5.65625-2.34326l-16-16a8.00889 8.00889 0 0 1 0-11.31348l25.373-25.373a8.00772 8.00772 0 0 1 11.3125 0l16 16a7.94677 7.94677 0 0 1 2.34375 5.65718v20.686l70.34277 70.34326a8.98022 8.98022 0 0 1 0 12.68656z"></path><path d="m457.225 100h43.773v16h-43.773z" transform="matrix(.406 -.914 .914 .406 185.839 501.958)"></path><path d="m450.801 144h17.509v16h-17.509z" transform="matrix(.406 -.914 .914 .406 134.009 510.211)"></path></g></svg>
+                                </div>
+
+                                <div>
+                                    <h1 class="hobbies__title">Mis hobbies</h1>
+                                </div>
+
+                                <i class="uil uil-angle-down hobbies__arrow"></i>
+                            </div>
+
+                            <div class="hobbies__list grid">
+                                <div class="hobbies__data">
+                                    <div class="hobbies__title">
+                                        <img src="assets/img/game.svg" class="hobbies-img"> 
+                                    </div>
+                                </div>
+
+                                <div class="hobbies__data">
+                                    <div class="hobbies__title">
+                                        <img src="assets/img/web_programming_o3kepha20g8h.svg" class="hobbies-img"> 
+                                    </div>
+                                </div>
+
+                                <div class="hobbies__data">
+                                    <div class="hobbies__title">
+                                        <img src="assets/img/headphones_pmti0m20v4qo.svg" class="hobbies-img"> 
+                                    </div>
+                                </div>
+
+                                <div class="hobbies__data">
+                                    <div class="hobbies__title">
+                                        <img src="assets/img/travel_and_tourism_4qwi0vtrk5an.svg" class="hobbies-img"> 
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>                                                
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== FORMACIÓN ====================-->
+            <section class="formacion section" id="formacion">
+                <h2 class="section__title">Formación</h2>
+                <span class="section__subtitle">Mis estudios</span>
+
+                <div class="formacion__container container">
+                    <div class="formacion__tabs">
+                        <div class="formacion__button button--flex formacion__active" data-target='#educacion'>
+                            <i class="uil uil-graduation-cap formacion__icon"></i>Educación
+                        </div>
+
+                        <div class="formacion__button button--flex" data-target='#trabajo'>
+                            <i class="uil uil-briefcase-alt formacion__icon"></i>Trabajo
+                        </div>
+                    </div>
+
+                    <div class="formacion__sections">
+                        <!--=========== FORMACIÓN CONT 1===============-->
+                        <div class="formacion__content formacion__active" data-content id="educacion">
+                            <!--=========== FORMACIÓN 1===============-->
+                            <div class="formacion__data">
+                                <div>
+                                    <h3 class="formacion__title">Contador Público</h3>
+                                    <span class="formacion__subtitle">U.N.T Fac. Cs.Ec- Argentina</span>
+                                    <div class="formacion__calendario">
+                                        <i class="uil uil-calendar-alt"></i> 2017 - en curso
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="formacion__dot"></span>
+                                    <span class="formacion__line"></span>
+                                </div>
+                            </div>
+
+                            <!--=========== FORMACIÓN 2===============-->
+                            <div class="formacion__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="formacion__dot"></span>
+                                    <span class="formacion__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="formacion__title">Introducción al Lenguaje de Programación</h3>
+                                    <span class="formacion__subtitle">Educacion IT - Telecom Argentina</span>
+                                    <div class="formacion__calendario">
+                                        <i class="uil uil-calendar-alt"></i> Marzo 2022 - Mayo 2022
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--=========== FORMACIÓN 3===============-->
+                            <div class="formacion__data">
+                                <div>
+                                    <h3 class="formacion__title">Programación Python</h3>
+                                    <span class="formacion__subtitle">Educacion IT - Telecom Argentina</span>
+                                    <div class="formacion__calendario">
+                                        <i class="uil uil-calendar-alt"></i> Mayo 2022 - Noviembre 2022
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="formacion__dot"></span>
+                                    <span class="formacion__line"></span>
+                                </div>
+                            </div>
+
+                            <!--=========== FORMACIÓN 4===============-->
+                            <div class="formacion__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="formacion__dot"></span>
+                                    <span class="formacion__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="formacion__title">Full Stack Python</h3>
+                                    <span class="formacion__subtitle">Programa Codo a Codo 4.0 - Argentina</span>
+                                    <div class="formacion__calendario">
+                                        <i class="uil uil-calendar-alt"></i> Agosto 2022 - en curso
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!--=========== FORMACIÓN 5===============-->
+                            <div class="formacion__data">
+                                <div>
+                                    <h3 class="formacion__title">Full Stack developer</h3>
+                                    <span class="formacion__subtitle">Oracle Next Education (ONE)+ Alura Latam</span>
+                                    <div class="formacion__calendario">
+                                        <i class="uil uil-calendar-alt"></i> Agosto 2022 - en curso
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="formacion__dot"></span>
+                                    <!--<span class="formacion__line"></span>-->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--=========== FORMACIÓN CONT 2===============-->
+                        <div class="formacion__content" data-content id="trabajo">
+                            <!--=========== FORMACIÓN 1===============-->
+                            <div class="formacion__data">
+                                <div>
+                                    <h3 class="formacion__title">Customer Service</h3>
+                                    <span class="formacion__subtitle">Teleperformance Argentina</span>
+                                    <div class="formacion__calendario">
+                                        <i class="uil uil-calendar-alt"></i> 2014 - 2019
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="formacion__dot"></span>
+                                    <span class="formacion__line"></span>
+                                </div>
+                            </div>
+
+                            <!--=========== FORMACIÓN 2===============-->
+                            <div class="formacion__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="formacion__dot"></span>
+                                    <!--<span class="formacion__line"></span>-->
+                                </div>
+
+                                <div>
+                                    <h3 class="formacion__title">Diseño y encuadernacion artesanal de agendas</h3>
+                                    <span class="formacion__subtitle">Emprendimiento propio</span>
+                                    <div class="formacion__calendario">
+                                        <i class="uil uil-calendar-alt"></i> 2019 - 2020
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">  
+                <h2 class="section__title">Proyectos</h2>
+                <span class="section__subtitle">Mis proyectos</span>
+
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--================ PORTFOLIO 1==================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Encriptador de Texto</h3>
+                                <p class="portfolio__description">Un encriptador donde el usuario puede escribir un texto y el encriptador lo codifica con llaves ya programadas. El encriptador también permite desencriptar el texto.</p>
+                                <div class="button-div">
+                                    <a href="https://yohana-olivera.github.io/Challenge-ONE-Sprint-01-Encriptador/" target="_blank" class="button button--flex button--small portfolio__button">
+                                        Demo
+                                        <i class="uil uil-arrow-right button__icon"></i>
+                                    </a>
+                                    <a href="https://github.com/Yohana-Olivera/Challenge-ONE-Sprint-01-Encriptador" target="_blank" class="button button--flex button--small portfolio__button">
+                                        GitHub
+                                        <i class="uil uil-github button__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--================ PORTFOLIO 2==================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Juego del Ahorcado</h3>
+                                <p class="portfolio__description">Un juego donde el usuario debe adivinar la palabra secreta con un cierto número de oportunidades. La palabra se escoge de forma aleatoria por el programa y el usuario perderá en el momento en que la horca se complete.</p>
+                                <div class="button-div">
+                                    <a href="https://yohana-olivera.github.io/Challenge-ONE-Sprint02-JuegoAhorcado/" target="_blank" class="button button--flex button--small portfolio__button">
+                                        Demo
+                                        <i class="uil uil-arrow-right button__icon"></i>
+                                    </a>
+                                    <a href="https://github.com/Yohana-Olivera/Challenge-ONE-Sprint02-JuegoAhorcado" target="_blank" class="button button--flex button--small portfolio__button">
+                                        GitHub
+                                        <i class="uil uil-github button__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--================ PORTFOLIO 3==================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Portfolio</h3>
+                                <p class="portfolio__description">Portfolio personal, donde podrán conocer acerca de mí, de las tecnologías que domino y mis proyectos. También encontrarán una sección de contacto.</p>
+                                <div class="button-div">
+                                    <a href="#" target="_blank" class="button button--flex button--small portfolio__button">
+                                        Demo
+                                        <i class="uil uil-arrow-right button__icon"></i>
+                                    </a>
+                                    <a href="#" target="_blank" class="button button--flex button--small portfolio__button">
+                                        GitHub
+                                        <i class="uil uil-github button__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ADD ARROWS -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- ADD PAGINATION -->
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contacto</h2>
+                <span class="section__subtitle">Contáctame aquí</span>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-whatsapp contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">WhatsApp</h3>
+                                <span class="contact__subtitle"> <a href="https://api.whatsapp.com/send?phone=5493814471471" target="_blank">+54-9381-4471-471</a></span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle"> <a href="mailto:jolivera_1711@hotmail.com">jolivera_1711@hotmail.com</a></span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-instagram contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Instagram</h3>
+                                <span class="contact__subtitle"><a href="https://www.instagram.com/yoha_om/" target="_blank">yoha_om</a></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="enviar.php" enctype="text/plain" method="post" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label class="contact__label">Nombre</label>
+                                <input name="nombre" id="nombre" type="text" class="contact__input" autocomplete="off">
+                            </div>
+
+                            <div class="contact__content">
+                                <label class="contact__label">Email</label>
+                                <input name="mail" id="mail" type="email" class="contact__input" autocomplete="off">
+                            </div>
+
+                            <div class="contact__content">
+                                <label class="contact__label">Asunto</label>
+                                <input name="subjet" id="subjet" type="text" class="contact__input" autocomplete="off">
+                            </div>
+
+                            <div class="contact__content">
+                                <label class="contact__label">Mensaje</label>
+                                <textarea name="mensaje" id="mensaje" cols="0" rows="7" class="contact__input" autocomplete="off"></textarea>
+                            </div>
+
+                            <div>
+                                <button type="submit" class="button button--flex">
+                                    Enviar
+                                    <i class="uil uil-message button__icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Yohana Olivera</h1>
+                        <span class="footer__subtitle">Desarrolladora Web</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#skills" class="footer__link">Habilidades</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Proyectos</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://github.com/Yohana-Olivera" target="_blank" class="footer__social">
+                            <i class="uil uil-github"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/yohana-daniela-olivera-macias/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/yoha_om/" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169; Coded with <i class="uil uil-heart-alt"></i> by <span> Yohana Olivera</span></p>
+
+
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+        <script src="https://kit.fontawesome.com/36a6e6dea3.js" crossorigin="anonymous"></script>
+    </body>
+</html>
