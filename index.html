@@ -633,7 +633,7 @@
                         </div>
                     </div>
 
-                    <form class="contact__form grid">
+                    <form action="https://formsubmit.co/portfolio_yolivera@hotmail.com" method="POST" class="contact__form grid">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label class="contact__label">Nombre</label>
@@ -647,7 +647,7 @@
 
                             <div class="contact__content">
                                 <label class="contact__label">Asunto</label>
-                                <input name="subjet" id="subjet" type="text" class="contact__input" autocomplete="off">
+                                <input name="asunto" id="subjet" type="text" class="contact__input" autocomplete="off">
                             </div>
 
                             <div class="contact__content">
@@ -662,6 +662,14 @@
                                 </button>
                             </div>
                         </div>
+
+                        <!--==================== CONFIG - API ENVIO DEL FORM ====================-->
+                        <input type="hidden" name="_next" value="https://yohana-olivera.github.io/Portfolio/">
+
+                        <input type="hidden" name="_autoresponse" value="Gracias por contactarme, a la brevedad responderé su mensaje.">
+
+                        <input type="hidden" name="_template" value="table">
+
                     </form>
                 </div>
             </section>
